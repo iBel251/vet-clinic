@@ -1,14 +1,11 @@
 /* Database schema to keep the structure of entire database. */
-CREATE DATABASE vet_clinic;
 
 CREATE TABLE animals (
-	id INT,
-	name VARCHAR(240),
-	date_of_birth DATE,
-	escape_attempts INT,
-	neutered BOOLEAN,
-	weight_kg DECIMAL,
-	PRIMARY KEY (id)
+    id integer,
+    name text,
+    date_of_birth date,
+    escape_attempts integer,
+    neutered boolean,
+    weight_kg numeric
 );
-
 
